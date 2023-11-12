@@ -49,10 +49,10 @@ section.content h1{
 
 @media (max-width: 899px) {
     h1{
-      font-size: 86px !important;
+      font-size: 70px !important;
     }
     h2{
-      font-size: 54px !important;
+      font-size: 30px !important;
     }
   }
 
@@ -73,6 +73,7 @@ section.content h2 span
 }
 
 .scaler {
+    width: 35vw;
     position: absolute;
     top: 30px;
     left: 50%;
@@ -82,7 +83,7 @@ section.content h2 span
 
 .happy-diwali {
     position: absolute;
-    top: 150px;
+    top: min(30vw,150px);
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
